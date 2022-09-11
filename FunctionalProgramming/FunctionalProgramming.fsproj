@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net48</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Graphics.fs" />
+    <Compile Include="Delivery.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 
